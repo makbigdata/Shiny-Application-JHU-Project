@@ -12,7 +12,7 @@ The app also displays a scatter plot showing the relationship between horsepower
 ## How to Use This Application
 
 ### Step 1: Open the App
-1. Visit the app by clicking [here](<insert-your-app-link-here>) or copy-pasting the link into your browser.
+1. Visit the app by clicking [here](<https://makbigdata.shinyapps.io/shiny-application-jhu-project/>) or copy-pasting the link into your browser.
 
 ### Step 2: Adjust Inputs
 1. Use the **slider** to select the desired horsepower.
@@ -30,9 +30,9 @@ The app uses the built-in `mtcars` dataset in R, which contains data about car p
 ---
 
 ## About the Author
-This app was built by [Your Name] as part of a Shiny app development project.
+This app was built by MAK as part of a Shiny app development project.
 
-Feel free to contact me with feedback or suggestions at [your-email@example.com].
+Feel free to contact me with feedback or suggestions at [makbigdata@gmail.com].
 
 ---
 
