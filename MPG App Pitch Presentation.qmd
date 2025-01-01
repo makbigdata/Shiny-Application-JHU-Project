@@ -1,0 +1,35 @@
+---
+title: "Miles Per Gallon (MPG) Predictor"
+author: "MAK"
+format: pptx
+output-file: mpg_predictor_presentation.pptx
+theme: cerulean
+---
+
+## Slide 1: Introduction
+
+**Welcome to the MPG Predictor!**
+
+This Shiny app predicts a car's fuel efficiency in terms of Miles Per Gallon (MPG) based on: - Horsepower (`hp`) - Number of cylinders (`cyl`)
+
+------------------------------------------------------------------------
+
+## Slide 2: Problem Statement
+
+**Why is MPG important?** - High MPG indicates better fuel efficiency, saving costs and reducing emissions. - Car buyers and manufacturers value fuel economy as a critical metric.
+
+------------------------------------------------------------------------
+
+## Slide 3: App Features
+
+**Key Features of the App** 1. **Dynamic User Inputs:** - Select horsepower using a slider. - Choose the number of cylinders from a dropdown. 2. **Real-time Predictions:** - See MPG predictions instantly. 3. **Interactive Visualization:** - Explore relationships between horsepower and MPG.
+
+------------------------------------------------------------------------
+
+## Slide 4: Demo
+
+```{r}
+# Example R code for a visual in your presentation 
+library(ggplot2) 
+ggplot(mtcars, aes(x = hp, y = mpg, color = as.factor(cyl))) + geom_point() + labs(title = "MPG vs Horsepower", x = "Horsepower", y = "Miles Per Gallon", color = "Cylinders") + theme_minimal()
+```
